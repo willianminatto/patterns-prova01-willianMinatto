@@ -17,12 +17,19 @@ class PushNotification {
   }
 }
 
+class WhatsAppNotification {
+  send(message) {
+    console.log(`Enviando ${message}`);
+  }
+}
+
 // Usando Factory Method
 class NotificationFactory {
   static types = {
     email: EmailNotification,
     sms: SMSNotification,
     push: PushNotification,
+    whatsapp: WhatsAppNotification,
   };
 
   static createNotification(type) {
