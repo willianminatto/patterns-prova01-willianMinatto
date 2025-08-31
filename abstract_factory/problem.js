@@ -29,8 +29,8 @@ function main(type) {
   let largeVehicle;
 
   if (type === "car") {
-    smallVehicle = new Car();
-    largeVehicle = new Motorcycle();
+    smallVehicle = new Motorcycle();
+    largeVehicle = new Car();
   } else if (type === "truck") {
     smallVehicle = new Truck();
     largeVehicle = new Bus();
