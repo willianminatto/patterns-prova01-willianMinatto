@@ -13,8 +13,7 @@ jobs:
     name: Run Node.js
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4.1.1
-    - run: cd desafio01
+    - uses: actions/checkout@v4.1.1    
     - name: Use Node.js 21
       uses: actions/setup-node@v4.0.0
       with:
