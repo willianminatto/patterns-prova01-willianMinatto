@@ -25,6 +25,10 @@ logger1.log("Primeira mensagem");
 const logger2 = new Logger();
 logger2.log("Segunda mensagem");
 
-// Agora ambos compartilham o mesmo histórico ✅
+const logger3 = new Logger();
+logger3.log("Terceira mensagem");
+
+// Agora ambos compartilham o mesmo histórico
 logger1.printHistory();
 logger2.printHistory();
+logger3.printHistory();
