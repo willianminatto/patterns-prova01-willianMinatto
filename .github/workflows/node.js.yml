@@ -20,7 +20,7 @@ jobs:
         node-version: 21
         cache: 'npm'    
     - run: npm install      
-    - run: npm start01
+    - run: npm run start01
 
   build02:
     name: Run Node.js 02
@@ -33,4 +33,4 @@ jobs:
         node-version: 21
         cache: 'npm'    
     - run: npm install      
-    - run: npm start02
+    - run: npm run start02
