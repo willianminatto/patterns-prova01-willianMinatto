@@ -30,5 +30,3 @@ logger3.log("Terceira mensagem");
 
 // Agora ambos compartilham o mesmo histórico
 logger1.printHistory();
-logger2.printHistory();
-logger3.printHistory();

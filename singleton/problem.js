@@ -21,8 +21,5 @@ logger1.log("Primeira mensagem");
 const logger2 = new Logger();
 logger2.log("Segunda mensagem");
 
-
-
 logger1.printHistory();
 logger2.printHistory();
-
