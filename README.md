@@ -1,8 +1,8 @@
 # Design Patterns Examples
 
-Examples about some design patterns
+Examples about Design Patterns to UNISATC Software Engineering
 
-Criacionais:
+Patterns Criacionais:
 
 - Factory Method
 - Abstract Factory
